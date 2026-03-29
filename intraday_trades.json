@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "created": "2026-03-29",
+    "testing_period": "1 week",
+    "daily_loss_limit": 5000,
+    "max_trades_per_day": 5,
+    "min_r_r_ratio": 1.5,
+    "status": "READY_FOR_TESTING"
+  },
+  "trades": {},
+  "summary": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": "0%",
+    "total_profit_loss": "₹0",
+    "by_setup": {
+      "ORB": {"count": 0, "wins": 0, "losses": 0, "pnl": 0},
+      "Pivot": {"count": 0, "wins": 0, "losses": 0, "pnl": 0},
+      "Momentum": {"count": 0, "wins": 0, "losses": 0, "pnl": 0},
+      "S-R": {"count": 0, "wins": 0, "losses": 0, "pnl": 0}
+    }
+  },
+  "daily_summary": {}
+}
