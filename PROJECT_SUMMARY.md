@@ -1,6 +1,7 @@
 # Project Summary - Kite Zeroda Portfolio Analyzer
 
-**Project Complete:** March 14, 2026
+**Project Status:** Active Development & Enhancement  
+**Last Updated:** March 29, 2026
 
 ---
 
@@ -14,15 +15,17 @@ A professional custom GitHub Copilot agent (`Kite Zeroda Portfolio Analyzer`) fo
 
 ```
 personal-ai-agents/
-├── .copilot/
-│   └── kite-zeroda-portfolio-analyser.agent.md    ← MAIN AGENT FILE
-├── README.md                                       ← Overview & setup
-├── QUICK_START.md                                  ← 2-min usage guide
-├── CONFIGURATION.md                                ← Detailed config reference
-├── MCP_SETUP_GUIDE.md                              ← Complete MCP setup instructions ⭐ NEW
-├── EXAMPLES.md                                     ← 5 real-world scenarios
-├── FINANCIAL_METRICS_REFERENCE.md                 ← Glossary of terms
-└── PROJECT_SUMMARY.md                             ← This file
+├── .github/
+│   ├── agents/
+│   │   └── kite-zeroda-portfolio-analyser.agent.md    ← MAIN AGENT FILE
+│   └── internal/                                       ← Internal reference docs
+├── README.md                                           ← Overview & setup
+├── QUICK_START.md                                      ← 2-min usage guide
+├── CONFIGURATION.md                                    ← Detailed config reference
+├── MCP_SETUP_GUIDE.md                                  ← Complete MCP setup instructions
+├── EXAMPLES.md                                         ← 5 real-world scenarios
+├── FINANCIAL_METRICS_REFERENCE.md                      ← Glossary of terms
+└── PROJECT_SUMMARY.md                                  ← This file
 ```
 
 ---
@@ -41,6 +44,19 @@ personal-ai-agents/
 ✅ Sector trend identification
 ✅ Global and Indian market context
 ✅ Competitor comparison
+✅ **NEW**: Geopolitical risk assessment (oil, rupee, FII flows)
+
+### Technical Analysis (NEW - Phase 1)
+✅ 6 core technical indicators (RSI, MACD, Bollinger Bands, ATR, EMA, Support/Resistance)
+✅ 2-year historical data analysis
+✅ Technical trend signals with confidence levels
+✅ Entry/exit points based on technical setup
+
+### Professional Verdict Framework (NEW - Phase 1)
+✅ Bull vs. Bear debate system for balanced perspective
+✅ Weighted scoring (0-10 scale) based on 5 factors
+✅ Clear verdict mapping (STRONG BUY to STRONG SELL)
+✅ Confidence levels for every recommendation
 
 ### Financial Recommendations
 ✅ Buy/Sell/Hold decisions with clear reasoning
@@ -48,6 +64,15 @@ personal-ai-agents/
 ✅ Long-term analysis (1-5 year fundamental)
 ✅ Price targets and entry/exit points
 ✅ Risk assessment and downside scenarios
+✅ **NEW**: ATR-based position sizing and stop loss
+
+### Risk Management Framework (NEW - Phase 1)
+✅ Position sizing based on volatility (ATR)
+✅ Dynamic stop loss calculation
+✅ Risk-reward ratio enforcement (min 1:2)
+✅ Portfolio heat tracking (position concentration)
+✅ Drawdown limits and stop-trading rules
+✅ Macro-based risk adjustments
 
 ### Professional Analysis
 ✅ Bold, unambiguous recommendations
@@ -58,7 +83,28 @@ personal-ai-agents/
 
 ---
 
-## 🔗 Kite MCP Integration (NEW ⭐)
+## � Development Phases
+
+### Phase 0: Initial Release (March 14, 2026)
+Foundation agent with portfolio analysis, market research, and basic recommendations.
+
+### Phase 1: Professional Analysis Infrastructure (March 29, 2026) ✅ COMPLETE
+Added quantitative decision-making framework:
+- **Technical Analysis Module**: 6 core indicators for short-term sizing
+- **Bull vs. Bear Debate System**: Adversarial analysis preventing confirmation bias
+- **Weighted Scoring System**: Quantitative 0-10 scale with 5 component factors
+- **Risk Management Framework**: Position sizing, stop loss, portfolio heat, drawdown limits
+
+**Result**: Recommendations now backed by clear scores, systematic risk control, and balanced perspectives.
+
+### Phase 2: Upcoming (April 2026)
+- Sentiment Analysis: Reddit, Twitter, retail sentiment integration
+- Portfolio Intelligence: Correlation matrix, sector breakdown, rebalancing optimization
+- Options Analysis: Greeks (Delta, Gamma, Vega, Theta) for hedging strategies
+
+---
+
+## �🔗 Kite MCP Integration (NEW ⭐)
 
 ### What's New?
 

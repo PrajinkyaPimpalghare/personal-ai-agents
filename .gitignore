@@ -1,1 +1,7 @@
 .DS_Store
+
+# Internal reference documents (not part of public distribution)
+.github/internal/
+**/internal/
+RESEARCH_NOTES.md
+COMPETITIVE_ANALYSIS.md
